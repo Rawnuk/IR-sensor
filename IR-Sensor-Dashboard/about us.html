@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - IR Sensor Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Same nav, container, header, footer styles as before */
+    .nav-menu {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0;
+      padding: 0;
+    }
+    .nav-menu li {
+      margin: 0;
+    }
+    .nav-menu li a {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid #ecf0f1;
+      border-radius: 6px;
+      background-color: transparent;
+      color: #ecf0f1;
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    .nav-menu li a:hover,
+    .nav-menu li a.active {
+      background-color: #1abc9c;
+      color: #ffffff;
+      border-color: #16a085;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 700px;
+      margin: 30px auto 50px;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      color: #34495e;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .flex-between {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .top-header {
+      background: #2c3e50;
+      color: #f0f0f0;
+      font-size: 14px;
+      padding: 8px 0;
+    }
+    .top-header .logo img {
+      height: 40px;
+    }
+    .top-header .contact-info span {
+      margin-right: 10px;
+    }
+    .top-header .social-icons a {
+      margin-left: 12px;
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #34495e;
+    }
+    .footer {
+      background-color: #2c3e50;
+      color: #ccc;
+      padding: 20px 0;
+      font-size: 14px;
+      text-align: center;
+    }
+    .footer a {
+      color: #1abc9c;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header -->
+  <header class="top-header">
+    <div class="container flex-between">
+      <div class="logo">
+        <img src="logo.png" alt="IR Dashboard Logo" />
+      </div>
+      <div class="contact-info">
+        <span>Email: info@irsensordashboard.com</span> | 
+        <span>Phone: +123-456-7890</span>
+      </div>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Twitter">TW</a>
+        <a href="#" aria-label="LinkedIn">LI</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About Us</a></li>
+      <li><a href="aim.html">Aim</a></li>
+      <li><a href="live-tracking.html">Live Tracking</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <h1>About Us</h1>
+    <p>We are a team passionate about IoT and sensor technology.</p>
+    <p>This dashboard project aims to provide real-time IR sensor monitoring.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      © 2025 IR Sensor Dashboard. All rights reserved.
+      <a href="privacy.html">Privacy Policy</a> | 
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </footer>
+
+</body>
+</html>
